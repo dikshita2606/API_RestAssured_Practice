@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-17T22:35:24 IST" name="Default suite" finished-at="2024-08-17T22:35:32 IST" duration-ms="7794">
+  <suite started-at="2024-08-17T23:44:11 IST" name="Default suite" finished-at="2024-08-17T23:44:16 IST" duration-ms="4990">
     <groups>
     </groups>
-    <test started-at="2024-08-17T22:35:24 IST" name="Default test" finished-at="2024-08-17T22:35:32 IST" duration-ms="7794">
-      <class name="Day2.JSONFileRequestBooksAPI">
-        <test-method signature="registerUserClient()[pri:1, instance:Day2.JSONFileRequestBooksAPI@c8c12ac]" started-at="2024-08-17T22:35:24 IST" name="registerUserClient" finished-at="2024-08-17T22:35:32 IST" duration-ms="7508" status="PASS">
+    <test started-at="2024-08-17T23:44:11 IST" name="Default test" finished-at="2024-08-17T23:44:16 IST" duration-ms="4990">
+      <class name="Day3.PathAndQueryParameters">
+        <test-method signature="testQueryAndPathParamneters()[pri:0, instance:Day3.PathAndQueryParameters@1623b78d]" started-at="2024-08-17T23:44:11 IST" name="testQueryAndPathParamneters" finished-at="2024-08-17T23:44:16 IST" duration-ms="4883" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerUserClient -->
-      </class> <!-- Day2.JSONFileRequestBooksAPI -->
+        </test-method> <!-- testQueryAndPathParamneters -->
+      </class> <!-- Day3.PathAndQueryParameters -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
