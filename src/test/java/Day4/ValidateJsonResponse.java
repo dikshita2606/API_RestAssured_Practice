@@ -4,8 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
-import io.restassured.http.ContentType;
 import static org.hamcrest.Matchers.*;
+import io.restassured.http.ContentType;
 
 import org.json.JSONObject;
 
