@@ -26,7 +26,7 @@ public class SerializationAndDeSerialization {
 	
 	@Test(priority=2)
 	void DeSerialization() throws JsonProcessingException {
-		//Convert POJO to JSON Data
+		//Convert JSON to POJO Data
 		
 		String json_data = "{\r\n"
 				+ "  \"clientName\" : \"Postman\",\r\n"
