@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-26T21:40:36 IST" name="Default suite" finished-at="2024-08-26T21:40:42 IST" duration-ms="5183">
+  <suite started-at="2024-08-27T23:21:10 IST" name="Default suite" finished-at="2024-08-27T23:21:10 IST" duration-ms="651">
     <groups>
     </groups>
-    <test started-at="2024-08-26T21:40:36 IST" name="Default test" finished-at="2024-08-26T21:40:42 IST" duration-ms="5183">
-      <class name="Day5.FileUploadAndDownload">
-        <test-method signature="multipleFileUpload()[pri:1, instance:Day5.FileUploadAndDownload@1623b78d]" started-at="2024-08-26T21:40:37 IST" name="multipleFileUpload" finished-at="2024-08-26T21:40:41 IST" duration-ms="4923" status="PASS">
+    <test started-at="2024-08-27T23:21:10 IST" name="Default test" finished-at="2024-08-27T23:21:10 IST" duration-ms="651">
+      <class name="Day6.SerializationAndDeSerialization">
+        <test-method signature="Serialization()[pri:1, instance:Day6.SerializationAndDeSerialization@6069db50]" started-at="2024-08-27T23:21:10 IST" name="Serialization" finished-at="2024-08-27T23:21:10 IST" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleFileUpload -->
-        <test-method signature="fileDownload()[pri:2, instance:Day5.FileUploadAndDownload@1623b78d]" started-at="2024-08-26T21:40:41 IST" name="fileDownload" finished-at="2024-08-26T21:40:42 IST" duration-ms="121" status="PASS">
+        </test-method> <!-- Serialization -->
+        <test-method signature="DeSerialization()[pri:2, instance:Day6.SerializationAndDeSerialization@6069db50]" started-at="2024-08-27T23:21:10 IST" name="DeSerialization" finished-at="2024-08-27T23:21:10 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fileDownload -->
-      </class> <!-- Day5.FileUploadAndDownload -->
+        </test-method> <!-- DeSerialization -->
+      </class> <!-- Day6.SerializationAndDeSerialization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
