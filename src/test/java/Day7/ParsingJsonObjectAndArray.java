@@ -11,7 +11,7 @@ import io.restassured.response.Response;
 public class ParsingJsonObjectAndArray {
 	
 
-/* JSON Data on which code was checked
+/* JSON Data on which code was checked and coded below function
    {
    "menu": 
    {  

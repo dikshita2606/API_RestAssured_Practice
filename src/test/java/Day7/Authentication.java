@@ -90,7 +90,7 @@ public class Authentication {
 	
 	//OAuth 1.0 and 2.0
 	//@Test(priority=5)
-	void testOAuthAuthentication() {
+	/*void testOAuthAuthentication() {
 		
 		given()
 			.auth().oauth("consumerKey", "consumerSecret", "accessToken", "tokenSecret")  //oAuth1.0
@@ -105,7 +105,7 @@ public class Authentication {
 			.header("Server", "github.com")
 			.body("id", equalTo(77416))
 			.log().all();		
-	}
+	}*/
 	
 	//AI Key Authentiction
 	@Test(priority=5)
