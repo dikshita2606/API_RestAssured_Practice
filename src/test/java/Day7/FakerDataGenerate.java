@@ -10,7 +10,7 @@ public class FakerDataGenerate {
 	void testDataGenerate() {
 		Faker f = new Faker();
 		
-		//generate random data and print values
+		//generate random data and print values  
 		
 		System.out.println("Full Name :- "+f.name().fullName());
 		System.out.println("First Name :- "+f.name().firstName());
