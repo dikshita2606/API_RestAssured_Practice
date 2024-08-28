@@ -11,7 +11,7 @@ import io.restassured.response.Response;
 public class ParsingJsonObjectAndArray {
 	
 
-/* JSON Data on which code was checked and coded below functions
+/* Parsing Json Data and understanding JSON Objects and JSON Array
    {
    "menu": 
    {  

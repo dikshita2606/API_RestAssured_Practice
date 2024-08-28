@@ -5,13 +5,14 @@ import static org.hamcrest.Matchers.*;
 import org.testng.annotations.Test;
 
 /*
- * Authentication Types in Rest Assured
+ * Authentication Types in Rest Assured mentioned Below
  * 1. Basic Authentication
  * 2. Digest Authentication
  * 3. Preemptive Authentication
  * 4. Bearer Token
  * 5. OAuth 1.0 and 2.0
  * 6. API Key
+ * 
  * */
 
 public class Authentication {
@@ -112,7 +113,7 @@ public class Authentication {
 	void test_API_Key_Authentication() {
 		//Method 1
 		/*given()
-			.queryParam("appid","fe9c5cddb7e01d747b4611c3fc9eaf2c") //appid is APIKey
+			.queryParam("appid","mention API Key") //appid is APIKey
 		.when()
 			.get("https://api.openweathermap.org/data/2.5/forecast/daily?q=Delhi&units=metric&cnt=7")
 		.then()
@@ -122,7 +123,7 @@ public class Authentication {
 		//Method2
 		
 		given()
-			.queryParam("appid","fe9c5cddb7e01d747b4611c3fc9eaf2c")			
+			.queryParam("appid","mention API Key")			
 			.pathParam("mypath","data/2.5/forecast/daily")		
 			.queryParam("q", "Delhi")			
 			.queryParam("units", "metric")			
