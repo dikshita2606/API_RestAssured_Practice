@@ -73,10 +73,9 @@ public class Authentication {
 	@Test(priority=4)
 	void testBearerAuthentication() {
 		
-		//String bearerToken ="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";
 		given()
 			//.headers("Authorization","Bearer "+bearerToken)
-		.headers("Authorization","Bearer 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")
+			.headers("Authorization","mention token")
 		
 		.when()
 			.get("https://api.github.com/users/repos")
