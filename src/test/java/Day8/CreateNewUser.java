@@ -40,7 +40,7 @@ public class CreateNewUser {
 		System.out.println("ID :- "+id);
 				
 		// Chain (Share Data with) APIs in same Test Tag
-		//context.setAttribute("userId", id);;
+		//context.setAttribute("userId", id);
 				
 		// Chain (Share Data with) APIs in same Suite Tag
 		context.getSuite().setAttribute("userId", id);	

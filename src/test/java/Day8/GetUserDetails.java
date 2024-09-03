@@ -9,7 +9,8 @@ public class GetUserDetails {
 
 	@Test
 	void testGetUserDetails(ITestContext context) {
-		int userId = (Integer) context.getAttribute("userId");
+		//int userId =  (Integer) context.getAttribute("userId");
+		int userId =  (Integer) context.getSuite().getAttribute("userId");
 		String BrearToken = "a99f869fd75cb7e84f8be876497c5af719d0471f7544920203454236153349f4";
 		
 		given()

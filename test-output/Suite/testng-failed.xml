@@ -18,6 +18,11 @@
           <include name="testGetUserDetails" invocation-numbers="0"/>
         </methods>
       </class> <!-- Day8.GetUserDetails -->
+      <class name="Day8.CreateNewUser">
+        <methods>
+          <include name="testCreateNewUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Day8.CreateNewUser -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

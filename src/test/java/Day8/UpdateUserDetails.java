@@ -10,7 +10,8 @@ import com.github.javafaker.Faker;
 public class UpdateUserDetails {
 	@Test
 	void testUpdateUserDetails(ITestContext context) {
-		int userId =  (Integer) context.getAttribute("userId");;
+		//int userId =  (Integer) context.getAttribute("userId");
+		int userId =  (Integer) context.getSuite().getAttribute("userId");
 		
 		Faker faker = new Faker();
 		
